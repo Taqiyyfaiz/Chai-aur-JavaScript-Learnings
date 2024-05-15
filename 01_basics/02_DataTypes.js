@@ -18,7 +18,6 @@ let isloggedIn = false // boolean Datatype
 // undefined => not given any value
 // symbol => to find unique
 
-
 // object
 
 // typeof (it is to check the datatypes)
