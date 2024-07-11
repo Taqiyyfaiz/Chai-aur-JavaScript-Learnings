@@ -7,12 +7,17 @@ const accountId = 1445553
 
 let accountEmail = "abc@gmail.com" 
 var accountPassword = "12345"
-accountCity = "Chennai"
+accountCity = "Chennai" 
 let accountState;
 
 // accountId = 2 Not allowed
 accountEmail = "hc@hc.com"
-accountPassword = "212134"
+/* let accountEmail = "anb@gmail.com" => It will Show Error because the accountEmail is already been declared 
+    So in Let can be re-assigned but cannot re-declared within the scope
+*/
+accountPassword = "212134" // Re-Assigned
+// Var => Can be re-assigned and re-decalre
+var accountPassword = "09876" // re - declaration
 accountCity = "Bengaluru"
 
 console.log(accountId);
