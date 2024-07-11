@@ -13,7 +13,7 @@ let age = 18 // number
 let isloggedIn = false // boolean Datatype
 
 // bigint (if the number is too big. a big market like facebook, stocks)
-// boolean => true/false
+// boolean => represents true/false
 // null it means empty. is a type (stand alone value)
 // undefined => not given any value
 // symbol => to find unique
