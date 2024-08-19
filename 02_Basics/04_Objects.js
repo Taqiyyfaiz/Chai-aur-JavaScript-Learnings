@@ -6,10 +6,11 @@ const course = {
 
 // Course.courseIntructer
 
-const {courseInstructer} = course
-console.log(courseInstructer);
+const {courseInstructer: instructor} = course
+console.log(instructor);
 
 // What is JSON
 // {
 //     name:"MTF",        
 // }
+
