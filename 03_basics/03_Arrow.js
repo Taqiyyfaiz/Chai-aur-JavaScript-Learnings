@@ -33,7 +33,7 @@ const user = {
 // const chai = function() {
 //     let username = "Faiz"
 //     console.log(this.username);
-    
+
 // }
 
 const chai = () => {
@@ -41,7 +41,7 @@ const chai = () => {
     console.log(this);
     
 }
-// chai()
+chai()
 
 // Basic Syntax of Arrow functions 
 // const addTwo = (num1, num2) => {
