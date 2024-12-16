@@ -1,0 +1,15 @@
+Javascript  
+        |
+        |----> "It is a synchronous."
+        |----> "it is single threaded language."
+
+Execution context -> "executes one line of code at a time"
+        |
+        |----> "Each operations waits for the last one to complete before        executing"
+
+
+ Blocking Code          V/s            Non Blocking Code
+       |                                          |
+       |---> Block the flow of program            |--> Does not block execution
+       |---> Read file Sync                       |--> Read file Async
+       

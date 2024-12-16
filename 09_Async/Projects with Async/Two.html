@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects with Asyncronous</title>
+</head>
+<body>
+    <h1>Chai aur JavaScript</h1>
+    <button id="Stop">Stop</button>
+    <button id="Start">Start</button>
+</body>
+<script>
+    // It keeps running and it won't stop
+    
+    const sayDate = function(str){
+        console.log(str, Date.now());
+    }
+    const intervalID = setInterval(sayDate, 1000, "Taqi")
+
+    // To Start the interval
+    // const start = setInterval(sayDate, 1000)
+    // document.querySelector('#Start').addEventListener('click', function () {
+    //     clearTimeout(start)
+    //     console.log('started');
+    // })
+
+    // To stop the interval
+    const stop = setInterval(sayDate, 1000)
+    document.querySelector('#Stop').
+    addEventListener('click', function() {
+        clearTimeout(stop)
+        console.log("Stopped");
+        
+    })
+    clearInterval(intervalID)
+    
+</script>
+</html>
